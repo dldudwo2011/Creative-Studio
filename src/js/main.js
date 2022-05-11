@@ -1,0 +1,7 @@
+// Create a click event for it that toggles a CSS class. 
+const iconToggle = document.querySelector('.menu-icon');
+
+iconToggle.addEventListener('click', () => {
+    document.querySelector('.menu').classList.toggle('active-menu');
+    document.querySelector('body').classList.toggle('active');
+});
